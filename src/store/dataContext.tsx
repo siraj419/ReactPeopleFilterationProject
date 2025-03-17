@@ -3,7 +3,7 @@ import { data } from "../db/data";
 
 const dataContext = createContext({
     data: data,
-    filter: (name:string, country:string, status:string, email:string, project:string) => {},
+    filter: (_name:string, _country:string, _status:string, _email:string, _project:string) => {},
     sortByName: () => {},
     sortByCountry: () => {},
     sortByDate: () => {}
